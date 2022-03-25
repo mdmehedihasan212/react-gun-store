@@ -1,0 +1,19 @@
+.header-component{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: deepskyblue;
+    height: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.header-component h1{
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.icon{
+    width: 30px;
+    height: 30px;    
+    color: white;
+}
