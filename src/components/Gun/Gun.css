@@ -58,5 +58,33 @@
   } */
 
 .img-container img{
-    width: 300px;
+    width: 230px;
+    height: 150px;
+    margin: 20px;
+}
+.gun-container{
+  border: thick double burlywood;
+  border-radius: 10px;
+  position: relative;
+}
+.product-info p{
+  margin: 10px;
+  margin-top: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.product-name{
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cart-btn{
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+}
+.btn-icon{
+  height: 30px;
+  width: 35px;
+}
+.cart-btn h4{
+  margin-left: 30px;
 }

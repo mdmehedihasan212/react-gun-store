@@ -13,7 +13,7 @@ const Store = () => {
     return (
         <div className="store-container">
             {
-                guns.map(gun => <Gun gun={gun}></Gun>)
+                guns.map(gun => <Gun key={gun.id} gun={gun}></Gun>)
             }
         </div>
     );
